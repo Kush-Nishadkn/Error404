@@ -1,0 +1,38 @@
+
+.container{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+}
+
+img{
+    /* height: 500px; */
+    width: 100%;
+    background-size: contain;
+    background-attachment: fixed;
+    z-index: -1;
+}
+
+h1{
+    font-size: 5rem;
+    letter-spacing: 20px;
+    z-index: 1;
+    position: absolute;
+    top: 30px;
+    right: 560px;
+    
+}
+h2{
+    
+    
+        font-size: 3rem;
+        /* letter-spacing: px; */
+}
+p{
+    letter-spacing: 3px;
+    font-weight:500 ;
+}
